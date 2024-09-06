@@ -147,6 +147,7 @@ main section{
     display: flex;
     gap: 24px;
 }
+
 .experience-sub-title{
     font-size: 20px;
     font-weight: 600;
@@ -155,14 +156,35 @@ main section{
 .experience-description, .experience-sub-title{
     color: #757575;
 }
+.resu-col {
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid #757575;
+    display: block;
+    font-size: 30px;
+}
+.lang p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;}
 .resume hr{
     margin: 30px 5px;
 }
-
-.resume-download-cv{
-    margin-top: 50px;
+.line {
+    border-left: 1px solid #757575;
+    padding-left: 30px;
+}
+.bottom-size {
+    margin-top: 67px;
 }
 
+.resume-download-cv{
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
 /* footer styles */
 footer{
     padding: 130px 230px;
